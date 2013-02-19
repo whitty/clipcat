@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'clipboard'
+
+Clipboard.copy(ARGF.readlines.join)
